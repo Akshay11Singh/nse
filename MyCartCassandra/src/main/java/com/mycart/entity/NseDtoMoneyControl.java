@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 @Component
+
 public class NseDtoMoneyControl {
 	@JsonProperty("Company Name")
 	String companyName;
